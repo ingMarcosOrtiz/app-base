@@ -42,14 +42,25 @@ export function LoginHome() {
               gridTemplateColumns: 'repeat(2, minmax(80px, 1fr))',
               gap: 1.5,
             }}>
-            <FormControl sx={{ gridColumn: '1/-1' }} error>
+            <FormControl sx={{ gridColumn: '1/-1' }}>
               <FormLabel>Email</FormLabel>
-              <Input size='sm' color='warning' variant='soft' />
+              <Input
+                autoComplete='off'
+                size='sm'
+                color='warning'
+                variant='soft'
+              />
               {/* <FormHelperText>Opps! something is wrong.</FormHelperText> */}
             </FormControl>
             <FormControl sx={{ gridColumn: '1/-1' }}>
               <FormLabel>Contraseña</FormLabel>
-              <Input type='text' size='sm' color='warning' variant='soft' />
+              <Input
+                // type='password'
+                autoComplete='off'
+                size='sm'
+                color='warning'
+                variant='soft'
+              />
             </FormControl>
 
             <CardActions sx={{ gridColumn: '1/-1' }}>

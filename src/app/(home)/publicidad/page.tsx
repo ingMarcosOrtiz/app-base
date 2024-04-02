@@ -1,5 +1,5 @@
 import React from 'react'
 
 export default function PublicidadPage() {
-  return <div>Pautas publicitarias</div>
+  return <div>Clasificados - Actualmente en Desarrollo</div>
 }

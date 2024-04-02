@@ -22,7 +22,7 @@ const menuItems: MenuItem[] = [
     icon: <FactCheckOutlinedIcon />,
   },
   {
-    path: '/pagos',
+    path: 'https://www.avalpaycenter.com/wps/portal/portal-de-pagos/web/pagos-aval/resultado-busqueda/realizar-pago?idConv=00015397&origen=buscar',
     title: 'Realizar Pagos',
     icon: <MonetizationOnOutlinedIcon />,
   },
